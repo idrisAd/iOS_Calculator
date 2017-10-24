@@ -31,6 +31,8 @@ class ViewController: UIViewController {
             }
     
     
+    
+    // Action on operation button
     @IBAction func didPressOperation(_ sender: Any) {
         guard let button = sender as? UIButton else{
             return
@@ -38,40 +40,41 @@ class ViewController: UIViewController {
         opeLabel.text = button.titleLabel?.text
         self.num1 = Int(resultLabel.text!) ?? 0
         resultLabel.text = "0"
-        //print(num1)
-
-        
-        
-        
         
     }
     
+    
+    // Action on equal button
     @IBAction func opAction(_ sender: Any) {
         
-        if opeLabel.text == "+" {
-            
-            self.num2 = Int(resultLabel.text!)! + num1
-            resultLabel.text = String(num2)
-        }else{
-            if opeLabel.text == "x" {
-                
-                self.num2 = Int(resultLabel.text!)! * num1
-                resultLabel.text = String(num2)
-            }
+        guard let operation: String = opeLabel.text else {
+            return
         }
         
+        switch operation {
+        case "+":
+            self.num2 = Int(resultLabel.text!)! + num1
+            resultLabel.text = String(num2)
+        case "x":
+            self.num2 = Int(resultLabel.text!)! * num1
+            resultLabel.text = String(num2)
+        case "-":
+            self.num2 = Int(resultLabel.text!)! - num1
+            resultLabel.text = String(num2)
+        case "/":
+            self.num2 = Int(resultLabel.text!)! / num1
+            resultLabel.text = String(num2)
+        default:
+            return
+        }
     }
     
     
     
+    // Action on Clear button
     @IBAction func didPressClear(_ sender: Any) {
         resultLabel.text = "0"
     }
-    
-    
-    
-    
-   
     
     
     override func viewDidLoad() {
