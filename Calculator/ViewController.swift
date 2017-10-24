@@ -47,6 +47,7 @@ class ViewController: UIViewController {
     }
     
     @IBAction func opAction(_ sender: Any) {
+        
         if opeLabel.text == "+" {
             
             self.num2 = Int(resultLabel.text!)! + num1
