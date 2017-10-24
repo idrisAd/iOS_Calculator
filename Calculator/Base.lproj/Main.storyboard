@@ -38,6 +38,9 @@
                                                 <variation key="heightClass=compact-widthClass=compact">
                                                     <color key="backgroundColor" red="1" green="0.50196081400000003" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                 </variation>
+                                                <variation key="heightClass=regular-widthClass=regular">
+                                                    <color key="backgroundColor" red="1" green="0.50196081400000003" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                </variation>
                                                 <connections>
                                                     <action selector="didPressButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="dFp-m1-pM5"/>
                                                 </connections>
@@ -50,6 +53,9 @@
                                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                 </state>
                                                 <variation key="heightClass=compact-widthClass=compact">
+                                                    <color key="backgroundColor" red="1" green="0.50196081400000003" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                </variation>
+                                                <variation key="heightClass=regular-widthClass=regular">
                                                     <color key="backgroundColor" red="1" green="0.50196081400000003" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                 </variation>
                                                 <connections>
@@ -66,6 +72,9 @@
                                                 <variation key="heightClass=compact-widthClass=compact">
                                                     <color key="backgroundColor" red="1" green="0.50196081400000003" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                 </variation>
+                                                <variation key="heightClass=regular-widthClass=regular">
+                                                    <color key="backgroundColor" red="1" green="0.50196081400000003" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                </variation>
                                                 <connections>
                                                     <action selector="didPressButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ssV-We-Dz4"/>
                                                 </connections>
@@ -78,6 +87,9 @@
                                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                 </state>
                                                 <variation key="heightClass=compact-widthClass=compact">
+                                                    <color key="backgroundColor" red="0.50196081400000003" green="0.50196081400000003" blue="0.50196081400000003" alpha="1" colorSpace="calibratedRGB"/>
+                                                </variation>
+                                                <variation key="heightClass=regular-widthClass=regular">
                                                     <color key="backgroundColor" red="0.50196081400000003" green="0.50196081400000003" blue="0.50196081400000003" alpha="1" colorSpace="calibratedRGB"/>
                                                 </variation>
                                                 <connections>
@@ -99,6 +111,9 @@
                                                 <variation key="heightClass=compact-widthClass=compact">
                                                     <color key="backgroundColor" red="1" green="0.50196081400000003" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                 </variation>
+                                                <variation key="heightClass=regular-widthClass=regular">
+                                                    <color key="backgroundColor" red="1" green="0.50196081400000003" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                </variation>
                                                 <connections>
                                                     <action selector="didPressButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ybP-i9-Tyx"/>
                                                 </connections>
@@ -111,6 +126,9 @@
                                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                 </state>
                                                 <variation key="heightClass=compact-widthClass=compact">
+                                                    <color key="backgroundColor" red="1" green="0.50196081400000003" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                </variation>
+                                                <variation key="heightClass=regular-widthClass=regular">
                                                     <color key="backgroundColor" red="1" green="0.50196081400000003" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                 </variation>
                                                 <connections>
@@ -127,6 +145,9 @@
                                                 <variation key="heightClass=compact-widthClass=compact">
                                                     <color key="backgroundColor" red="1" green="0.50196081400000003" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                 </variation>
+                                                <variation key="heightClass=regular-widthClass=regular">
+                                                    <color key="backgroundColor" red="1" green="0.50196081400000003" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                </variation>
                                                 <connections>
                                                     <action selector="didPressButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="w3z-mG-icr"/>
                                                 </connections>
@@ -139,6 +160,9 @@
                                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                 </state>
                                                 <variation key="heightClass=compact-widthClass=compact">
+                                                    <color key="backgroundColor" red="0.50196081400000003" green="0.50196081400000003" blue="0.50196081400000003" alpha="1" colorSpace="calibratedRGB"/>
+                                                </variation>
+                                                <variation key="heightClass=regular-widthClass=regular">
                                                     <color key="backgroundColor" red="0.50196081400000003" green="0.50196081400000003" blue="0.50196081400000003" alpha="1" colorSpace="calibratedRGB"/>
                                                 </variation>
                                                 <connections>
@@ -160,6 +184,9 @@
                                                 <variation key="heightClass=compact-widthClass=compact">
                                                     <color key="backgroundColor" red="1" green="0.50196081400000003" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                 </variation>
+                                                <variation key="heightClass=regular-widthClass=regular">
+                                                    <color key="backgroundColor" red="1" green="0.50196081400000003" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                </variation>
                                                 <connections>
                                                     <action selector="didPressButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="igD-cv-xRF"/>
                                                 </connections>
@@ -172,6 +199,9 @@
                                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                 </state>
                                                 <variation key="heightClass=compact-widthClass=compact">
+                                                    <color key="backgroundColor" red="1" green="0.50196081400000003" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                </variation>
+                                                <variation key="heightClass=regular-widthClass=regular">
                                                     <color key="backgroundColor" red="1" green="0.50196081400000003" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                 </variation>
                                                 <connections>
@@ -188,6 +218,9 @@
                                                 <variation key="heightClass=compact-widthClass=compact">
                                                     <color key="backgroundColor" red="1" green="0.50196081400000003" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                 </variation>
+                                                <variation key="heightClass=regular-widthClass=regular">
+                                                    <color key="backgroundColor" red="1" green="0.50196081400000003" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                </variation>
                                                 <connections>
                                                     <action selector="didPressButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="vS9-CO-HEX"/>
                                                 </connections>
@@ -200,6 +233,9 @@
                                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                 </state>
                                                 <variation key="heightClass=compact-widthClass=compact">
+                                                    <color key="backgroundColor" red="0.50196081400000003" green="0.50196081400000003" blue="0.50196081400000003" alpha="1" colorSpace="calibratedRGB"/>
+                                                </variation>
+                                                <variation key="heightClass=regular-widthClass=regular">
                                                     <color key="backgroundColor" red="0.50196081400000003" green="0.50196081400000003" blue="0.50196081400000003" alpha="1" colorSpace="calibratedRGB"/>
                                                 </variation>
                                                 <connections>
@@ -221,6 +257,9 @@
                                                 <variation key="heightClass=compact-widthClass=compact">
                                                     <color key="backgroundColor" red="1" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                 </variation>
+                                                <variation key="heightClass=regular-widthClass=regular">
+                                                    <color key="backgroundColor" red="1" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                </variation>
                                                 <connections>
                                                     <action selector="didPressClear:" destination="BYZ-38-t0r" eventType="touchUpInside" id="I5p-Cq-rSs"/>
                                                 </connections>
@@ -233,6 +272,9 @@
                                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                 </state>
                                                 <variation key="heightClass=compact-widthClass=compact">
+                                                    <color key="backgroundColor" red="1" green="0.50196081400000003" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                </variation>
+                                                <variation key="heightClass=regular-widthClass=regular">
                                                     <color key="backgroundColor" red="1" green="0.50196081400000003" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                 </variation>
                                                 <connections>
@@ -249,6 +291,9 @@
                                                 <variation key="heightClass=compact-widthClass=compact">
                                                     <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 </variation>
+                                                <variation key="heightClass=regular-widthClass=regular">
+                                                    <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                </variation>
                                                 <connections>
                                                     <action selector="opAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="LZb-2y-OZr"/>
                                                 </connections>
@@ -261,6 +306,9 @@
                                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                 </state>
                                                 <variation key="heightClass=compact-widthClass=compact">
+                                                    <color key="backgroundColor" red="0.50196081400000003" green="0.50196081400000003" blue="0.50196081400000003" alpha="1" colorSpace="calibratedRGB"/>
+                                                </variation>
+                                                <variation key="heightClass=regular-widthClass=regular">
                                                     <color key="backgroundColor" red="0.50196081400000003" green="0.50196081400000003" blue="0.50196081400000003" alpha="1" colorSpace="calibratedRGB"/>
                                                 </variation>
                                                 <connections>
