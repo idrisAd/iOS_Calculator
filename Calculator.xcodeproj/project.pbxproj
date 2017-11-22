@@ -7,7 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2CEFB157F55A30166B9373C2 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A409A06610BF1B59E42EC1FE /* QuartzCore.framework */; };
+		42F5D449FF0942137E3A16F0 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 090FF1AB2E3D108E2B3AE851 /* AVFoundation.framework */; };
+		43F843BDAACB46F3B895C8ED /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DFB2EAEFF33A7E96E13B236 /* CoreText.framework */; };
+		6B831BC993DCDE2D82EAC0D6 /* BuddyBuildSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5977FD8C13BDB90FF519370F /* BuddyBuildSDK.framework */; };
+		72D5C3BDDC65FC419C4C702D /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1014E009E46E1C7BAC7618B2 /* SystemConfiguration.framework */; };
+		766AEC35A76FB784F0E44A52 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57FFC05B29AE22C88DCB6E8F /* CoreVideo.framework */; };
 		7C7C9CD2FBCEB091EA0C7DB9 /* Pods_CalculatorUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BBCBA0B82E457B00691542E0 /* Pods_CalculatorUITests.framework */; };
+		7E447BF215CDA4E4973C5BD7 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1ADC7CE469BEDC67ED821525 /* CoreTelephony.framework */; };
+		A50241FBFDE89680CF3766CA /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60761B4B0A9174388FFBA7D8 /* AssetsLibrary.framework */; };
 		B26B6BB3784500A95EE0B0F5 /* Pods_Calculator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81C34CF5EB6A50F69004E61A /* Pods_Calculator.framework */; };
 		EEC0CE30493F1C94A3C40E68 /* Pods_CalculatorTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE4948EB461254C1FE8632F6 /* Pods_CalculatorTests.framework */; };
 		FDE191261F9E1D2F00E0F3F6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDE191251F9E1D2F00E0F3F6 /* AppDelegate.swift */; };
@@ -17,6 +25,7 @@
 		FDE191301F9E1D2F00E0F3F6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDE1912E1F9E1D2F00E0F3F6 /* LaunchScreen.storyboard */; };
 		FDE1913B1F9E1D2F00E0F3F6 /* CalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDE1913A1F9E1D2F00E0F3F6 /* CalculatorTests.swift */; };
 		FDE191461F9E1D2F00E0F3F6 /* CalculatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDE191451F9E1D2F00E0F3F6 /* CalculatorUITests.swift */; };
+		FEE2BFEC40FFEE7FDFD054BE /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C8595BA4B057024FDF1CB43 /* CoreMedia.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,9 +46,19 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		090FF1AB2E3D108E2B3AE851 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		1014E009E46E1C7BAC7618B2 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		1ADC7CE469BEDC67ED821525 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		22B31C9CD543720F6F81341F /* Bridging-Header.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Bridging-Header.h"; sourceTree = "<group>"; };
 		41D230CE5229CB2284452B9A /* Pods-Calculator.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Calculator.release.xcconfig"; path = "Pods/Target Support Files/Pods-Calculator/Pods-Calculator.release.xcconfig"; sourceTree = "<group>"; };
+		4C8595BA4B057024FDF1CB43 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		57FFC05B29AE22C88DCB6E8F /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		5977FD8C13BDB90FF519370F /* BuddyBuildSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BuddyBuildSDK.framework; path = BuddyBuildSDK.framework; sourceTree = "<group>"; };
+		60761B4B0A9174388FFBA7D8 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
 		77AE17F62F13672D44AA1565 /* Pods-CalculatorUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CalculatorUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CalculatorUITests/Pods-CalculatorUITests.release.xcconfig"; sourceTree = "<group>"; };
 		81C34CF5EB6A50F69004E61A /* Pods_Calculator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Calculator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9DFB2EAEFF33A7E96E13B236 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		A409A06610BF1B59E42EC1FE /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		BBCBA0B82E457B00691542E0 /* Pods_CalculatorUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CalculatorUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C1C8E19FF7706C206A53A92D /* Pods-CalculatorTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CalculatorTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CalculatorTests/Pods-CalculatorTests.debug.xcconfig"; sourceTree = "<group>"; };
 		D4E00E2B73E68DC66E40FC8E /* Pods-CalculatorTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CalculatorTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CalculatorTests/Pods-CalculatorTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -67,6 +86,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				B26B6BB3784500A95EE0B0F5 /* Pods_Calculator.framework in Frameworks */,
+				6B831BC993DCDE2D82EAC0D6 /* BuddyBuildSDK.framework in Frameworks */,
+				A50241FBFDE89680CF3766CA /* AssetsLibrary.framework in Frameworks */,
+				43F843BDAACB46F3B895C8ED /* CoreText.framework in Frameworks */,
+				7E447BF215CDA4E4973C5BD7 /* CoreTelephony.framework in Frameworks */,
+				72D5C3BDDC65FC419C4C702D /* SystemConfiguration.framework in Frameworks */,
+				2CEFB157F55A30166B9373C2 /* QuartzCore.framework in Frameworks */,
+				42F5D449FF0942137E3A16F0 /* AVFoundation.framework in Frameworks */,
+				FEE2BFEC40FFEE7FDFD054BE /* CoreMedia.framework in Frameworks */,
+				766AEC35A76FB784F0E44A52 /* CoreVideo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -108,6 +136,15 @@
 				81C34CF5EB6A50F69004E61A /* Pods_Calculator.framework */,
 				DE4948EB461254C1FE8632F6 /* Pods_CalculatorTests.framework */,
 				BBCBA0B82E457B00691542E0 /* Pods_CalculatorUITests.framework */,
+				5977FD8C13BDB90FF519370F /* BuddyBuildSDK.framework */,
+				60761B4B0A9174388FFBA7D8 /* AssetsLibrary.framework */,
+				9DFB2EAEFF33A7E96E13B236 /* CoreText.framework */,
+				1ADC7CE469BEDC67ED821525 /* CoreTelephony.framework */,
+				1014E009E46E1C7BAC7618B2 /* SystemConfiguration.framework */,
+				A409A06610BF1B59E42EC1FE /* QuartzCore.framework */,
+				090FF1AB2E3D108E2B3AE851 /* AVFoundation.framework */,
+				4C8595BA4B057024FDF1CB43 /* CoreMedia.framework */,
+				57FFC05B29AE22C88DCB6E8F /* CoreVideo.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -121,6 +158,7 @@
 				FDE191231F9E1D2F00E0F3F6 /* Products */,
 				96A2873BEE46D8A1E3BCD3FF /* Pods */,
 				C4B54732793C826A9A36B620 /* Frameworks */,
+				22B31C9CD543720F6F81341F /* Bridging-Header.h */,
 			);
 			sourceTree = "<group>";
 		};
@@ -645,12 +683,17 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = K4BW9785S4;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = Calculator/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.formation.idrisAd.Calculator;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "40c7d168-5a82-495a-9eef-63889db6b980";
 				PROVISIONING_PROFILE_SPECIFIER = mobileProvisionFormationBon;
+				SWIFT_OBJC_BRIDGING_HEADER = "Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -663,12 +706,17 @@
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = K4BW9785S4;
 				EQUAL_COLOR = red;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = Calculator/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.formation.idrisAd.Calculator;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "40c7d168-5a82-495a-9eef-63889db6b980";
 				PROVISIONING_PROFILE_SPECIFIER = mobileProvisionFormationBon;
+				SWIFT_OBJC_BRIDGING_HEADER = "Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
