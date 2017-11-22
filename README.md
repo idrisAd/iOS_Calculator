@@ -4,6 +4,8 @@
 
 A Swift calculator with a change color during the rotation.
 
+Soon iphone7  screen shot.
+
 ### ScreenShot 
 
 <h4>Portrait view on iPhone SE </h4>
@@ -11,3 +13,4 @@ A Swift calculator with a change color during the rotation.
   
 <h4>Landscape view on iPhone SE </h4>
   <img src="calculator_landscape.png" width="429px" height="259.5px" />
+
