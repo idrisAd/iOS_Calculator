@@ -60,6 +60,7 @@ class ViewController: UIViewController {
     // Action on Clear button
     @IBAction func didPressClear(_ sender: Any) {
         resultLabel.text = "0"
+        print("remise a zero")
     }
     override func viewDidLoad() {
         super.viewDidLoad()
