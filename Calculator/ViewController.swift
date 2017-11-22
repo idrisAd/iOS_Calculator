@@ -64,11 +64,11 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-        
-        let env = Bundle.main.infoDictionary!["EqualColor"] as! String
+
+        let env = Bundle.main.infoDictionary!["EqualColor"] as! String // swiftlint:disable:this force_cast
         if env == "yellow" {
             super.view.backgroundColor = .black
-        }else{
+        } else {
             super.view.backgroundColor = .lightGray
         }
         self.resultLabel.text = "0"
